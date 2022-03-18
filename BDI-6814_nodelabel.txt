@@ -1,0 +1,136 @@
+2022-03-17 20:12:53,935 WARN [main](Utils.java:260) Can't find the /home/CORP/c-yuan.long/hadoop-config/yarn-capacity-management-tool/src/main/resources/las-sox-config.property in classpath, try to load from file path.
+2022-03-17 20:12:54,013 INFO [main](YarnQueueConfigurationReader.java:86) Building Yarn queue hierarchy...
+2022-03-17 20:12:54,536 WARN [main](NativeCodeLoader.java:62) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2022-03-17 20:12:54,680 INFO [main](YarnQueueConfigurationReader.java:93) Parsing resource pools...
+2022-03-17 20:12:54,682 INFO [main](YarnQueueConfigurationReader.java:236) There are 20 pools: dqm-pool,data-solutions-pool,temp-test-pool,di-pool,lr-pool,adi-pool,subscription-pool,data-science-pool,video-pool,dp-pool,computation-pool,ap-pool,bdp-pool,streaming-pool,idm-pool,reserved-pool,olap-pool,prod-best-effort-pool,best-effort-pool,bda-pool
+2022-03-17 20:12:54,751 INFO [main](YarnQueueConfigurationReader.java:259) Creating root.prod-best-effort.prod-best-effort-placeholder-queue for prod-best-effort-pool
+2022-03-17 20:12:54,757 INFO [main](YarnQueueConfigurationReader.java:259) Creating root.best-effort.best-effort-placeholder-queue for best-effort-pool
+2022-03-17 20:12:54,760 INFO [main](YarnQueueConfigurationReader.java:259) Creating root.bda.bda-placeholder-queue for bda-pool
+2022-03-17 20:12:54,826 WARN [main](CapacityCalculator.java:119) Round the capacity of queue bda from 12.22 to 12.23
+2022-03-17 20:12:54,827 WARN [main](CapacityCalculator.java:119) Round the capacity of queue bdp-streaming from 44.71 to 44.7
+2022-03-17 20:12:54,827 WARN [main](CapacityCalculator.java:119) Round the capacity of queue bdp-streaming from 44.71 to 44.7
+2022-03-17 20:12:54,827 WARN [main](CapacityCalculator.java:119) Round the capacity of queue best-effort-placeholder-queue from 39.66 to 39.65
+2022-03-17 20:12:54,828 WARN [main](CapacityCalculator.java:119) Round the capacity of queue best-effort-placeholder-queue from 39.66 to 39.65
+2022-03-17 20:12:54,828 WARN [main](CapacityCalculator.java:119) Round the capacity of queue bda-placeholder-queue from 49.07 to 49.08
+2022-03-17 20:12:54,828 WARN [main](CapacityCalculator.java:127) Truncate max capacity for default from 49.07 to 49.08 of queue bda-placeholder-queue
+2022-03-17 20:12:54,828 WARN [main](CapacityCalculator.java:119) Round the capacity of queue bda-placeholder-queue from 49.07 to 49.08
+2022-03-17 20:12:54,830 WARN [main](CapacityCalculator.java:127) Truncate max capacity for bda-node from 49.07 to 49.08 of queue bda-placeholder-queue
+2022-03-17 20:12:54,939 INFO [main](HZookeeper.java:92) Attempting to connect to zookeeper servers horcrux01.prod.hulu.com,horcrux02.prod.hulu.com,horcrux03.prod.hulu.com,horcrux04.prod.hulu.com,horcrux05.prod.hulu.com
+2022-03-17 20:12:54,948 INFO [main](Environment.java:100) Client environment:zookeeper.version=3.4.5-cdh5.16.2--1, built on 06/03/2019 10:40 GMT
+2022-03-17 20:12:54,948 INFO [main](Environment.java:100) Client environment:host.name=sox-hadoop-client-machine-01.server.hulu.com
+2022-03-17 20:12:54,948 INFO [main](Environment.java:100) Client environment:java.version=1.8.0_292
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.vendor=Private Build
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.home=/usr/lib/jvm/java-8-openjdk-amd64/jre
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.class.path=/opt/hulu/yarn-capacity-management-tool/yarn-capacity-management-system-0.1-SNAPSHOT-jar-with-dependencies.jar
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.io.tmpdir=/tmp
+2022-03-17 20:12:54,949 INFO [main](Environment.java:100) Client environment:java.compiler=<NA>
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:os.name=Linux
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:os.arch=amd64
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:os.version=4.4.0-92-generic
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:user.name=c-yuan.long
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:user.home=/home/CORP/c-yuan.long
+2022-03-17 20:12:54,950 INFO [main](Environment.java:100) Client environment:user.dir=/home/CORP/c-yuan.long/hadoop-config
+2022-03-17 20:12:54,951 INFO [main](ZooKeeper.java:438) Initiating client connection, connectString=horcrux01.prod.hulu.com,horcrux02.prod.hulu.com,horcrux03.prod.hulu.com,horcrux04.prod.hulu.com,horcrux05.prod.hulu.com sessionTimeout=60000 watcher=com.hulu.ap.horcrux.util.HZookeeper$1@123f1134
+2022-03-17 20:12:55,054 INFO [pool-1-thread-1](RESTClient.java:56) Fetch configurations from backup http://horcrux-service01.prod.hulu.com.
+2022-03-17 20:12:55,055 INFO [main-SendThread(zookeeper-shared-prod-node-1.las.prod.hulu.com:2181)](ClientCnxn.java:1020) Opening socket connection to server zookeeper-shared-prod-node-1.las.prod.hulu.com/10.88.137.101:2181. Will not attempt to authenticate using SASL (unknown error)
+2022-03-17 20:12:55,060 INFO [main-SendThread(zookeeper-shared-prod-node-1.las.prod.hulu.com:2181)](ClientCnxn.java:864) Socket connection established, initiating session, client: /10.92.251.239:59608, server: zookeeper-shared-prod-node-1.las.prod.hulu.com/10.88.137.101:2181
+2022-03-17 20:12:55,081 INFO [main-SendThread(zookeeper-shared-prod-node-1.las.prod.hulu.com:2181)](ClientCnxn.java:1280) Session establishment complete on server zookeeper-shared-prod-node-1.las.prod.hulu.com/10.88.137.101:2181, sessionid = 0x179bc882d162e11, negotiated timeout = 40000
+2022-03-17 20:12:55,083 INFO [main-EventThread](ZookeeperClient.java:230) Zookeeper connectted, last clientpath null.
+2022-03-17 20:12:55,107 INFO [main](Horcrux.java:52) Success to fetch configs from zookeeper.
+2022-03-17 20:12:55,113 INFO [main-EventThread](ZookeeperClient.java:288) register self on zookeeper:/services/prod/HadoopClusters/las-sox/clients/client0043151667
+2022-03-17 20:12:55,508 INFO [main](CapacityManager.java:60) Login user: c-yuan.long@CORP.HULU.COM (auth:KERBEROS)
+2022-03-17 20:12:56,709 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w09.server.hulu.com:8041
+2022-03-17 20:12:56,710 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w14.server.hulu.com:8041
+2022-03-17 20:12:56,710 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w11.server.hulu.com:8041
+2022-03-17 20:12:56,710 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w17.server.hulu.com:8041
+2022-03-17 20:12:56,710 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w13.server.hulu.com:8041
+2022-03-17 20:12:56,710 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w04.server.hulu.com:8041
+2022-03-17 20:12:56,711 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w21.server.hulu.com:8041
+2022-03-17 20:12:56,711 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w08.server.hulu.com:8041
+2022-03-17 20:12:56,711 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w15.server.hulu.com:8041
+2022-03-17 20:12:56,711 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w16.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w18.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w02.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w20.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w07.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w22.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w06.server.hulu.com:8041
+2022-03-17 20:12:56,712 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w03.server.hulu.com:8041
+2022-03-17 20:12:56,713 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w01.server.hulu.com:8041
+2022-03-17 20:12:56,713 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w12.server.hulu.com:8041
+2022-03-17 20:12:56,713 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w05.server.hulu.com:8041
+2022-03-17 20:12:56,713 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-21w19.server.hulu.com:8041
+2022-03-17 20:12:56,713 WARN [main](CapacityManager.java:370) Can not find the machine type of node lashadoop-18l01.server.hulu.com:8041
+2022-03-17 20:12:56,939 INFO [main](CapacityManager.java:468) Inferring label changes completed
+2022-03-17 20:12:56,940 INFO [main](CapacityManager.java:470) >>>> Found 1 new labels need to add:
+2022-03-17 20:12:56,940 INFO [main](CapacityManager.java:470) >>>> yarn rmadmin -addToClusterNodeLabels temp-test-node
+2022-03-17 20:12:56,940 INFO [main](CapacityManager.java:470) >>>> Found 2 obsolete labels: default,maintenance-node
+2022-03-17 20:12:56,940 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M376-D16-batch'(yarn-NODEMANAGER-2), needed another 3 nodes for bda-node label
+2022-03-17 20:12:56,940 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M376-D16-olap'(yarn-NODEMANAGER-3), needed another 11 nodes for olap-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M376-D16-batch'(yarn-NODEMANAGER-2), needed another 2 nodes for best-effort-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M376-D16-batch'(yarn-NODEMANAGER-2), needed another 2 nodes for dp-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M754-D16-batch'(yarn-NODEMANAGER-5), needed another 2 nodes for dp-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M252-D16-streaming'(yarn-NODEMANAGER-10), needed another 2 nodes for streaming-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M754-D16-streaming'(yarn-NODEMANAGER-4), needed another 4 nodes for streaming-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> There are no enough nodes of type 'NodeManager C48-M754-D16-batch'(yarn-NODEMANAGER-5), needed another 1 nodes for bdp-node label
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> Node label changes:
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> adi-node
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j38.server.hulu.com:8041: maintenance-node -> adi-node
+2022-03-17 20:12:56,941 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o07.server.hulu.com:8041: maintenance-node -> adi-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o14.server.hulu.com:8041: maintenance-node -> adi-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s08.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s09.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s10.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s11.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s12.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s13.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,942 INFO [main](CapacityManager.java:470) >>>> lashadoop-21s14.server.hulu.com:8041: best-effort-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j38.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o07.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o14.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o20.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o21.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o22.server.hulu.com:8041: maintenance-node -> prod-best-effort-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> temp-test-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,943 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j38.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o07.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o14.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o20.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o21.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o22.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o27.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o28.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o29.server.hulu.com:8041: maintenance-node -> reserved-node
+2022-03-17 20:12:56,944 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> data-solutions-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21c09.server.hulu.com:8041: best-effort-node -> streaming-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21m09.server.hulu.com:8041: adi-node -> dqm-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j34.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21j38.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o07.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o14.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o20.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,945 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o21.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,946 INFO [main](CapacityManager.java:470) >>>> lashadoop-21o22.server.hulu.com:8041: maintenance-node -> bdp-node
+2022-03-17 20:12:56,946 INFO [main](CapacityManagementTool.java:104) Total node label change command: 19.
+yarn rmadmin -replaceLabelsOnNode lashadoop-21c09.server.hulu.com:8041,streaming-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21j34.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21j38.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21m09.server.hulu.com:8041,dqm-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o07.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o14.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o20.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o21.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o22.server.hulu.com:8041,bdp-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o27.server.hulu.com:8041,reserved-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o28.server.hulu.com:8041,reserved-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21o29.server.hulu.com:8041,reserved-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s08.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s09.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s10.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s11.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s12.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s13.server.hulu.com:8041,prod-best-effort-node
+yarn rmadmin -replaceLabelsOnNode lashadoop-21s14.server.hulu.com:8041,prod-best-effort-node
